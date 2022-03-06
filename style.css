@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.container .left #classification {
+  padding: 15px 10px;
+}
+
+.container .searchBar_card_listTransition {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.card_listTransition {
+  padding: 10px 30px;
+}
+
+.card_listTransition i {
+  padding: 0px 10px;
+  cursor: pointer;
+}
+
+#data-panel .list {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 15px 7px 20px;  
+  margin: 2px;
+  border: 2px solid #F8F8F8;
+  border-radius: 5px;  
+}
+
+#data-panel .list .list-footer button {
+  margin: 0px 5px;
+}
+
+#search-form {
+  display: flex;
+  flex-grow: row nowrap;
+  max-width: 300px;
+}

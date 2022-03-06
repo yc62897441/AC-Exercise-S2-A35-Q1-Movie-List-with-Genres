@@ -1,0 +1,8 @@
+
+
+
+#search-form {
+  display: flex;
+  flex-grow: row nowrap;
+  max-width: 300px;
+}
